@@ -1,10 +1,10 @@
 [app]
 
 # (str) Title of your application
-title = SpostaFileManager
+title = prova
 
 # (str) Package name
-package.name = spostafilemanager
+package.name = prova
 
 # (str) Package domain (needed for android/ios packaging)
 package.domain = org.test
@@ -16,11 +16,11 @@ source.dir = .
 source.include_exts = py,png,jpg,kv,db,xml
 
 # (list) List of inclusions using pattern matching
-source.include_patterns = icons/*.jpg, icons/*.png
+#source.include_patterns = icons/*.jpg, icons/*.png
 
 # (list) Source files to exclude (let empty to not exclude anything)
 #source.exclude_exts = spec
-source.exclude_patterns = backup/*
+#source.exclude_patterns = backup/*
 
 # (list) List of directory to exclude (let empty to not exclude anything)
 #source.exclude_dirs = tests, bin, venv
@@ -38,8 +38,8 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy,pyjnius,pillow
-
+#requirements = python3,kivy,pyjnius,pillow
+requirements = python3,kivy
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
 # requirements.source.kivy = ../../kivy
